@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-for c in range(ord('a'), ord('z')+1):
-    if c is not (ord('q')) and c is not (ord('e')):
-        print('{}'.format(chr(c)), end='')
+for character in range(97, 123):
+    if (character != 101 and character != 113):
+        print("{:c}".format(character), end='')
